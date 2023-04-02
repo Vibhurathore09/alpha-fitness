@@ -5,7 +5,7 @@ import "../App.css";
 const NavBar = () => {
   return (
     <div>
-      <nav className="navbar sticky-top navbar-expand-lg Poppins-font " >
+      <nav className="navbar fixed-top navbar-expand-lg Poppins-font " >
         <div className="container-fluid" >
             
             <div className="brand-detail">

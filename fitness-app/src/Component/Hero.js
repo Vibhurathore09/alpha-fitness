@@ -8,6 +8,7 @@ const Hero = () => {
   return (
     <div>
       <div className="hero  d-flex justify-content-evenly align-items-center">
+
         <div className="hero-tagline">
           <h1 className="heading-1 Roboto-font">
             Come & Make Your Dream Body With
@@ -51,6 +52,7 @@ const Hero = () => {
           </div>
 
         </div>
+
         <div className="achievement d-flex flex-column Roboto-font">
           <div className="p-2">
             <h2 className="heading-2">120k</h2>
@@ -67,6 +69,7 @@ const Hero = () => {
             <p className="desc Poppins-font">Different Exercise</p>
           </div>
         </div>
+
       </div>
     </div>
   );

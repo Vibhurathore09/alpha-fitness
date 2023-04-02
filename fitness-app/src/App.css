@@ -1,7 +1,12 @@
 .navbar{
+  background-color: #eeeded73;
   height: 10vh;
+  z-index: 1000;
 }
+.navbar-nav{
+  z-index: 1000;
 
+}
 .brand-detail{
   margin-left: 3rem;
   margin-right: 4rem;
@@ -28,7 +33,7 @@
 
 .hero {
   background-color: #ffffff49;
-  height: 90vh;
+  height: 95vh;
 }
 
 .hero-tagline{
@@ -41,6 +46,7 @@
 
 
 .hero-image{
+  z-index: 100000;
   position: relative;
 }
 
@@ -214,3 +220,47 @@ align-items: center;
   clip-path: polygon(100% 51%, 0 0, 0 100%);
 }
 
+/*//////////////////////////////////
+//////////////// GOAL */
+
+.goal{
+  /* border:2px solid blue; */
+  margin-top: -3rem;
+  height: 30vh;
+}
+
+.goal-line{
+  width: 3rem;
+  height: .2rem;
+  background-color: #f6614c;
+  margin-right:.5rem ;
+  margin-bottom: .3rem;
+}
+
+
+.heading-3{
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.goal-card{
+  margin-top: 2rem;
+  padding-inline: .4rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 1.3rem;
+  width: 18rem;
+  height: 7rem;
+  box-shadow: #00000075 0px 7px 29px 0px;
+}
+
+.goal-card__text{
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.goal-card__text span{
+  color: #f6614c;
+}
