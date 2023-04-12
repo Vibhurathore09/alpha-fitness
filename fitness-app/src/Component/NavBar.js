@@ -12,7 +12,7 @@ const NavBar = () => {
 
           <a class="navbar-brand" href="/">
             <img
-              src={require("../Asset/logo.png")}
+              src={require("../Asset/logo2.png")}
               alt="Logo"
               width="39"
               height="39"
@@ -44,12 +44,8 @@ const NavBar = () => {
               <a className="nav-link" href="/">
                 About
               </a>
-              <a className="nav-link" href="/">
-                Features
-              </a>
-              <a className="nav-link" href="/">
-                Pricing
-              </a>
+    
+    
             </div>
           </div>
         </div>
