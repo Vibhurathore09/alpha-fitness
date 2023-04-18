@@ -1,0 +1,107 @@
+.footer-section{
+    background: url(../Asset/section_bg03.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    height: 85vh;
+    padding-top: 11rem;
+    margin-top: 1rem;
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    /* border: 2px skyblue solid; */
+    
+}
+
+/*////////////////////////////////////////////////////////////
+////////////// FS-ABOUT */
+.fs-about{
+    /* border: 2px skyblue solid; */
+    text-align: center;
+    margin-right: 3rem;
+}
+
+.fs-about p{
+    margin-top: 1.2rem;
+
+}
+
+
+.fa-logo img{
+    width: 8rem;
+    height: 8rem;
+}
+
+
+
+.fa-social{
+    margin-top: 1.4rem;
+    padding-inline: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.fa-social i{
+    color: white;
+}
+
+.fa-social i:hover{
+    color: rgb(166, 210, 249);
+}
+
+/*///////////////////////////////////////////////////////////
+/////////////////////////////// fs-widget */
+
+.fs-widget h4{
+    margin-bottom: 2.5rem;
+} 
+
+.fs-widget a{
+    text-decoration: none;
+    color: #c4c4c4;
+    font-weight: 100;
+    transition: all 0.3s ease;
+}
+
+.fs-widget li{
+    margin-top: .5rem;
+    list-style: none;
+    transition: all 0.3s ease;
+
+}
+
+.fs-widget li:hover{
+  
+    transform: translateX(4px);
+}
+
+.fs-widget li:hover a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*////////////////////////////////////////////////////////////
+/////////////////////*/
+
+
+.copyright{
+    padding-top: 1rem;
+    border-top: .5px solid white;
+    margin-top: 5rem;
+}
+
+

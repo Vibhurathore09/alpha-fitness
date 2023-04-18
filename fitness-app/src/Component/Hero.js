@@ -10,9 +10,9 @@ const Hero = () => {
       <div className="hero  d-flex justify-content-evenly align-items-center">
 
         <div className="hero-tagline">
-          <h1 className="heading-1 Roboto-font">
+          <h1 className="heading-1 ">
             Come & Make Your Dream Body With
-            <span className="heading-1 hero-span"> Alpha Fitness</span>
+            <span className="heading-1 hero-span "> Alpha Fitness</span>
           </h1>
 
           <div className="hero-buttons mt-5">
@@ -41,7 +41,7 @@ const Hero = () => {
             height="680"
             alt="hero"
           />
-          <div className="heart Poppins-font">
+          {/* <div className="heart Poppins-font">
             <img src={require("../Asset/heart-icon.png")} width="35" height="35" alt="heart"/> 
             <div className="heart-desc"><p>Heart Rate<br/><span>9234</span> bpm</p></div>
           </div>
@@ -49,7 +49,7 @@ const Hero = () => {
           <div className="spo2 Poppins-font">
             <img src={require("../Asset/SPO2.png")} width="50" height="50" alt="heart"/> 
             <div className="heart-desc spo2-desc"><p>&nbsp;&nbsp;SpO2<span>&nbsp;99%</span></p></div>
-          </div>
+          </div> */}
 
         </div>
 
@@ -65,7 +65,7 @@ const Hero = () => {
           </div>
 
           <div className="p-2">
-            <h2 className="heading-2 border-up ">45+</h2>
+            <h2 className="heading-2 border-up ">350+</h2>
             <p className="desc Poppins-font">Different Exercise</p>
           </div>
         </div>

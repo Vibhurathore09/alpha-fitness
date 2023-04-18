@@ -10,19 +10,19 @@ const NavBar = () => {
             
             <div className="brand-detail">
 
-          <a class="navbar-brand" href="/">
+          <a className="navbar-brand" href="/">
             <img
-              src={require("../Asset/logo.png")}
+              src={require("../Asset/logo2.png")}
               alt="Logo"
               width="39"
               height="39"
-              class="d-inline-block align-text-top"
+              className="d-inline-block align-text-top"
             />
           </a>
-          <a class="navbar-brand brand-name" href="/">Alpha Fitness</a>
+          <a className="navbar-brand brand-name" href="/">Alpha Fitness</a>
             </div>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -30,7 +30,7 @@ const NavBar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
 
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup"  >
@@ -44,12 +44,8 @@ const NavBar = () => {
               <a className="nav-link" href="/">
                 About
               </a>
-              <a className="nav-link" href="/">
-                Features
-              </a>
-              <a className="nav-link" href="/">
-                Pricing
-              </a>
+    
+    
             </div>
           </div>
         </div>
