@@ -16,9 +16,7 @@ const Footer = () => {
                   </a>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore dolore magna aliqua
-                  endisse ultrices gravida lorem.
+                  Join us and make your Dream body with   ALPHA FITNESS
                 </p>
                 <div class="fa-social">
                   <a href="#">
@@ -86,9 +84,9 @@ const Footer = () => {
                       Physical fitness may help prevent depression, anxiety
                     </a>
                   </h6>
-                  <ul>
+                  {/* <ul>
                     <li>3 min read</li>
-                  </ul>
+                  </ul> */}
                 </div>
                 <div class="fw-recent">
                   <h6>
@@ -97,9 +95,9 @@ const Footer = () => {
                       up...
                     </a>
                   </h6>
-                  <ul>
+                  {/* <ul>
                     <li>3 min read</li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>

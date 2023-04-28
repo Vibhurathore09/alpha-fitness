@@ -1,5 +1,6 @@
 import React from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import { Link } from "react-router-dom";
 import "../App.css";
 
 const NavBar = () => {
@@ -41,9 +42,9 @@ const NavBar = () => {
               <a className="nav-link" href="/">
                 Exercise
               </a>
-              <a className="nav-link" href="/">
+              <Link className="Links" to={`/about`}><a className="nav-link">
                 About
-              </a>
+              </a></Link>
     
     
             </div>

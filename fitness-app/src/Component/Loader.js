@@ -1,11 +1,15 @@
 import React from 'react';
 import { Stack } from '@mui/material';
+import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
 import { InfinitySpin } from 'react-loader-spinner';
 
 const Loader = () => (
-  <Stack direction="row" justifyContent="center" alignItems="center" width="100%">
-    <InfinitySpin color="grey" />
-  </Stack>
+  <div class="d-flex justify-content-center">
+  <div class="spinner-border" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+</div>
 );
 
 export default Loader;
